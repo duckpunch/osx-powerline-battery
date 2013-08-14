@@ -1,1 +1,1 @@
-from osx_powerline_battery.segments import *
+from .segments import osx_battery

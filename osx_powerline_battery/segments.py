@@ -11,7 +11,7 @@ def osx_battery(pl, steps=4, gamify=True):
         batt_percent = re.search(r'\d+%', charge).group(0)
         batt_level = int(batt_percent.replace('%', ''))
         step_size = 100.0/steps
-        num_of_full_hearts = int(batt_level/step_size) + 1
+        num_of_full_hearts = min(int(batt_level/step_size) + 1, steps)
         if gamify:
             return [
                 {
