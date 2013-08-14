@@ -4,7 +4,7 @@ import subprocess, re
 def osx_battery(pl, steps=4, gamify=True):
     full_heart = '♥ '
     empty_heart = '♡ '
-    power_type, charge, _ = subprocess.check_output(['pmset', '-g', 'batt']).split('\n')
+    power_type, charge, _ = subprocess.check_output(['pmset', '-g', 'batt']).decode('utf8').split('\n')
     if 'AC Power' in power_type:
         return None
     else:
