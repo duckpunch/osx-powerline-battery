@@ -21,4 +21,4 @@ This is what it looks like on my machine.
 
 ![screenshot](https://raw.github.com/fathwad/osx-powerline-battery/master/screenshot.png)
 
-And here's the [pypi link](https://pypi.python.org/pypi/osx-powerline-battery-segment)
+And here's the [pypi link](https://pypi.python.org/pypi/osx-powerline-battery-segment).
