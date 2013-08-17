@@ -19,4 +19,4 @@ You'll then want to add something like this to your segment configuration.
 
 This is what it looks like on my machine.
 
-![screenshot](fathwad.github.org/osx-powerline-battery/screenshot.png)
+![screenshot](https://raw.github.com/fathwad/osx-powerline-battery/master/screenshot.png)
