@@ -16,3 +16,7 @@ You'll then want to add something like this to your segment configuration.
         "name": "osx_battery",
         "module": "osx_powerline_battery.segments"
     },
+
+This is what it looks like on my machine.
+
+![screenshot](fathwad.github.org/osx-powerline-battery/screenshot.png)
